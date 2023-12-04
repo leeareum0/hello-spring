@@ -1,6 +1,16 @@
 package hello.textspring.domain;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Member {
+    //IDENTITY - DB가 자동으로 생성해주기 위해
+    @Id @GeneratedValue(strategy =  GenerationType.IDENTITY)
     private Long id;
     private String name;
 
