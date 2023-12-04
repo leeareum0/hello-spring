@@ -1,15 +1,10 @@
-package hello.textspring;
+package hello.hellospring;
 
-import hello.textspring.repository.JdbcMemberRepository;
-import hello.textspring.repository.JpaMemberRepository;
-import hello.textspring.repository.MemberRepository;
-import hello.textspring.service.MemberService;
+import hello.hellospring.repository.MemberRepository;
+import hello.hellospring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import javax.persistence.EntityManager;
-import javax.sql.DataSource;
 
 @Configuration
 public class SpringConfig {

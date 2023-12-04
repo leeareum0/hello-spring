@@ -1,6 +1,4 @@
-package hello.textspring.domain;
-
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+package hello.hellospring.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

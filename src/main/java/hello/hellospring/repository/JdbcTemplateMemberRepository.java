@@ -1,6 +1,6 @@
-package hello.textspring.repository;
+package hello.hellospring.repository;
 
-import hello.textspring.domain.Member;
+import hello.hellospring.domain.Member;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;

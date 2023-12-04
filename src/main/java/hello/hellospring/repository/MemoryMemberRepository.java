@@ -1,12 +1,9 @@
-package hello.textspring.repository;
+package hello.hellospring.repository;
 
-import hello.textspring.domain.Member;
-import org.apache.catalina.Store;
-import org.springframework.stereotype.Repository;
-import org.springframework.web.bind.annotation.ResponseBody;
+import hello.hellospring.domain.Member;
 
 import java.util.*;
-import java.util.logging.LogManager;
+
 //@Repository
 public class MemoryMemberRepository implements MemberRepository{
     private static Map<Long, Member> store = new HashMap<>();

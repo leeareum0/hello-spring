@@ -1,7 +1,6 @@
-package hello.textspring.repository;
+package hello.hellospring.repository;
 
-import hello.textspring.domain.Member;
-import org.hibernate.annotations.common.reflection.XMember;
+import hello.hellospring.domain.Member;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
